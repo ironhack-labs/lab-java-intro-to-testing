@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
@@ -20,5 +18,29 @@ public class Main {
             }
         }
         return arrayOddInts;
+    }
+
+    // method that takes in a String and returns true if the String contains any Java Keywords
+    public boolean detectKeywords(String str) {
+        List<String> keywords = new ArrayList<>();
+        keywords = Arrays.asList("abstract", "assert", "boolean",
+                "break", "byte", "case", "catch", "char", "class", "const",
+                "continue", "default", "do", "double", "else", "extends", "false",
+                "final", "finally", "float", "for", "goto", "if", "implements",
+                "import", "instanceof", "int", "interface", "long", "native",
+                "new", "null", "package", "private", "protected", "public",
+                "return", "short", "static", "strictfp", "super", "switch",
+                "synchronized", "this", "throw", "throws", "transient", "true",
+                "try", "void", "volatile", "while");
+
+        List<String> wordsList = Arrays.stream(str.split(" ")).toList();
+        for (String word : wordsList) {
+            for (String keyword : keywords) {
+                if (word.equals(keyword)) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

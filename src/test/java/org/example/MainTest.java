@@ -42,4 +42,13 @@ class MainTest {
     void arrayOddInts_TestnEven() {
         assertEquals(Arrays.asList(1,3,5), main.buildArrayOddInts(6));
     }
+
+    @DisplayName("Detect keywords")
+    @Test
+    void detectingKeywords() {
+        assertEquals(false,main.detectKeywords("Hello my name is Laura"));
+        assertEquals(true,main.detectKeywords("Hello my name is Laura and I am short"));
+        assertEquals(true,main.detectKeywords("Don't break my heart"));
+        assertEquals(false,main.detectKeywords("I love to breakdance"));
+    }
 }
