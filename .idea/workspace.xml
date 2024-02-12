@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81bd84dd-b958-41ff-819d-ad9b6b9062ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Elf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Wizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PlayersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2cBH7OZO09uXDqH3w1Qo2Iq1iHD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.Lab Intro to Testing.executor": "Run",
+    "JUnit.MainTest.detectingKeywords.executor": "Run",
+    "JUnit.MainTest.executor": "Run",
+    "JUnit.PlayersTest.Attacks.executor": "Run",
+    "JUnit.PlayersTest.Attacks_till_Death.executor": "Run",
+    "JUnit.PlayersTest.Convert_to_Elf.executor": "Run",
+    "JUnit.PlayersTest.Decrement_Lives_and_Dead_Players.executor": "Run",
+    "JUnit.PlayersTest.GettersSettersTests.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/Laura Sanchez Ruiz/Desktop/IronHack/Week3 (05.02 - 11.02)/Week3S3/lab-intro-to-testing-maven/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PlayersTest.Attacks_till_Death">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="lab-intro-to-testing-maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayersTest.Attacks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab-intro-to-testing-maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PlayersTest" />
+      <option name="METHOD_NAME" value="Attacks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayersTest.Attacks_till_Death" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab-intro-to-testing-maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PlayersTest" />
+      <option name="METHOD_NAME" value="Attacks_till_Death" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayersTest.Convert_to_Elf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab-intro-to-testing-maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PlayersTest" />
+      <option name="METHOD_NAME" value="Convert_to_Elf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayersTest.Decrement_Lives_and_Dead_Players" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab-intro-to-testing-maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PlayersTest" />
+      <option name="METHOD_NAME" value="Decrement_Lives_and_Dead_Players" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.PlayersTest.Attacks" />
+      <item itemvalue="JUnit.PlayersTest.Attacks_till_Death" />
+      <item itemvalue="JUnit.PlayersTest.Convert_to_Elf" />
+      <item itemvalue="JUnit.PlayersTest.Decrement_Lives_and_Dead_Players" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PlayersTest.Attacks_till_Death" />
+        <item itemvalue="JUnit.PlayersTest.Decrement_Lives_and_Dead_Players" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PlayersTest.Attacks" />
+        <item itemvalue="JUnit.PlayersTest.Convert_to_Elf" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81bd84dd-b958-41ff-819d-ad9b6b9062ac" name="Changes" comment="" />
+      <created>1707577885030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707577885030</updated>
+    </task>
+    <servers />
+  </component>
+</project>
