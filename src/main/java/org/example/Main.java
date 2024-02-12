@@ -6,6 +6,15 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        Elf elf = new Elf(30,8,3,15);
+        elf.decrementLive();
+        System.out.println(elf.getLives());
+        elf.decrementLive();
+        System.out.println(elf.getLives());
+        elf.decrementLive();
+        System.out.println(elf.getLives());
+        elf.decrementLive();
+        System.out.println(elf.getLives());
 
     }
 

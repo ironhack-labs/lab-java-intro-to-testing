@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81bd84dd-b958-41ff-819d-ad9b6b9062ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Elf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Wizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PlayersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -16,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,7 +45,13 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "JUnit.Lab Intro to Testing.executor": "Run",
+    "JUnit.MainTest.detectingKeywords.executor": "Run",
     "JUnit.MainTest.executor": "Run",
+    "JUnit.PlayersTest.Attacks.executor": "Run",
+    "JUnit.PlayersTest.Attacks_till_Death.executor": "Run",
+    "JUnit.PlayersTest.Convert_to_Elf.executor": "Run",
+    "JUnit.PlayersTest.Decrement_Lives_and_Dead_Players.executor": "Run",
+    "JUnit.PlayersTest.GettersSettersTests.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -59,8 +70,9 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.detectingKeywords">
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PlayersTest.Attacks_till_Death">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="lab-intro-to-testing-maven" />
       <extension name="coverage">
         <pattern>
@@ -68,14 +80,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.MainTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.detectingKeywords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayersTest.Attacks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab-intro-to-testing-maven" />
       <extension name="coverage">
         <pattern>
@@ -84,21 +93,75 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.MainTest" />
-      <option name="METHOD_NAME" value="detectingKeywords" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PlayersTest" />
+      <option name="METHOD_NAME" value="Attacks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayersTest.Attacks_till_Death" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab-intro-to-testing-maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PlayersTest" />
+      <option name="METHOD_NAME" value="Attacks_till_Death" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayersTest.Convert_to_Elf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab-intro-to-testing-maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PlayersTest" />
+      <option name="METHOD_NAME" value="Convert_to_Elf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayersTest.Decrement_Lives_and_Dead_Players" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab-intro-to-testing-maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PlayersTest" />
+      <option name="METHOD_NAME" value="Decrement_Lives_and_Dead_Players" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MainTest" />
-      <item itemvalue="JUnit.MainTest.detectingKeywords" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.PlayersTest.Attacks" />
+      <item itemvalue="JUnit.PlayersTest.Attacks_till_Death" />
+      <item itemvalue="JUnit.PlayersTest.Convert_to_Elf" />
+      <item itemvalue="JUnit.PlayersTest.Decrement_Lives_and_Dead_Players" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest.detectingKeywords" />
-        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.PlayersTest.Attacks_till_Death" />
+        <item itemvalue="JUnit.PlayersTest.Decrement_Lives_and_Dead_Players" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PlayersTest.Attacks" />
+        <item itemvalue="JUnit.PlayersTest.Convert_to_Elf" />
       </list>
     </recent_temporary>
   </component>
