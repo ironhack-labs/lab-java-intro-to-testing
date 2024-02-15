@@ -1,6 +1,6 @@
 package exercise1;
 
-public class ex1 {
+public class Ex1 {
     public static int[] getOddInts(int n) throws IllegalArgumentException {
         if (n < 1) {
             throw new IllegalArgumentException("the number must be greater than or equal to 1");
