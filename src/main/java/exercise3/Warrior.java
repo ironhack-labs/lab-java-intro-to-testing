@@ -8,6 +8,11 @@ class Warrior extends Player {
         this.force = force;
     }
 
+    //Getter
+    public int getForce() {
+        return force;
+    }
+
     // Method
     public Elf convertToElf() {
         return new Elf(getHealth(), getStrength(), getLives(), 0);

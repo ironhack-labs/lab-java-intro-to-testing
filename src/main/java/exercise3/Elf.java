@@ -7,5 +7,11 @@ class Elf extends Player {
         super(health, strength, lives);
         this.speed = speed;
     }
+
+    //Getters
+
+    public int getSpeed() {
+        return speed;
+    }
 }
 

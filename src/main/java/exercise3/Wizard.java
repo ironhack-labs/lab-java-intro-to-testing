@@ -8,6 +8,12 @@ class Wizard extends Player {
         this.spell = spell;
     }
 
+    //Getters
+    public String getSpell() {
+        return spell;
+    }
+
+    //Methods
     public Elf convertToElf() {
         return new Elf(getHealth(), getStrength(), getLives(), 0);
     }
